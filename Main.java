@@ -7,7 +7,8 @@ public class Main{
 
         //Get Start Time
         long startTime = System.currentTimeMillis();
-
+       
+        // Prints inputs
         System.out.println("\nPlain Text: " + args[0] + "\nKey: " + args[1]);
         SPCipher cipher = new SPCipher(args[0], args[1]);
         
